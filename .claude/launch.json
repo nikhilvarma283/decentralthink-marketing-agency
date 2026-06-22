@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "decentralthink-core",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["nodemon", "--cwd", "decentralthink-core", "src/index.js"],
+      "port": 3000,
+      "cwd": "decentralthink-core"
+    },
+    {
+      "name": "rippa-na",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "3001"],
+      "port": 3001,
+      "cwd": "C:\\Users\\nikhi\\OneDrive\\Documents\\Claude\\Projects\\RippaNa\\app"
+    }
+  ]
+}
