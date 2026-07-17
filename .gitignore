@@ -75,3 +75,8 @@ dump.rdb
 .cache/
 temp/
 tmp/
+
+# Old directories
+rippana/
+decentralthink-core/
+decentralthink-twin/
